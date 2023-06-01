@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/productFragment">
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.yogifi.views.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_productItemDetail"
+            app:destination="@id/productItemDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.yogifi.views.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/productItemDetail"
+        android:name="com.example.yogifi.views.ProductItemDetail"
+        android:label="fragment_product_item_detail"
+        tools:layout="@layout/fragment_product_item_detail">
+
+        <argument
+            android:name="ProductItem"
+            app:nullable="false"
+            app:argType="com.example.yogifi.data.model.product.ProductItem" />
+    </fragment>
+</navigation>

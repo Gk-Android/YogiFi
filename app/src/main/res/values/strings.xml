@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">YogiFi</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="click_here_to_join_us_for_more_rewards">Click here to join us for more rewards</string>
+    <string name="description">Description</string>
+    <string name="my_profile">My Profile</string>
+    <string name="point_earned">Point Earned</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="saved_address">Saved Address</string>
+    <string name="logout">Logout</string>
+</resources>
